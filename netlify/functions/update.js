@@ -1,10 +1,4 @@
-exports.handler = async (event) => {
-  console.log("Received an update from Telegram!", event.body);
-  return { statusCode: 200 };
-};
-
-
-/*const sendMessage = require("../../sendMessage");
+const sendMessage = require("../../sendMessage");
 const messageParts = require("../../messageParts");
 const hashnode = require("../../hashnode");
 
@@ -41,4 +35,4 @@ https://hashnode.com/featured
 
   return { statusCode: 200 };
 };
-*/
+
